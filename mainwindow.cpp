@@ -15,9 +15,9 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_3_clicked()
 {
+    ui->label->setText("Відтаровано");
     m_v.calibrate();
 }
-
 
 void MainWindow::on_pushButton_2_clicked()
 {
